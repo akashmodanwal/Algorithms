@@ -47,6 +47,6 @@ int pow_rec2(int m,int n){
         return pow_rec2(m*m,n/2);
     }
     else
-        return m*pow_rec2(m*m,n/2);
+        return m*pow_rec2(m*m,(n-1)/2);
 
 }
