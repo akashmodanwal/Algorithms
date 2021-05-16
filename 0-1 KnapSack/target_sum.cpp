@@ -23,7 +23,7 @@ int count_subsets_for_sum(int *arr,int n,int sum){
         }
     }
 
-    /*for (int i = 0; i <= n; i++)
+    /*for (int i = 0; i <= n; ++)
      {
        for (int j = 0; j <= sum; j++)
           printf ("%4d", dp[i][j]);
