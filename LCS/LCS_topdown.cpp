@@ -22,7 +22,7 @@ int LCS_topdown(string x,string y,int n,int m){
             if(x[i-1] == y[j-1])
                 dp[i][j] = 1 + dp[i-1][j-1];
             else
-                dp[i][j] = ma(dp[i-1][j],dp[i][j-1]);
+                dp[i][j] = max(dp[i-1][j],dp[i][j-1]);
         }
     }
 
